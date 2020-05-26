@@ -7,7 +7,7 @@ Platform: x86_64-w64-mingw32/x64 (64-bit)
 
 Para gráfico de Pareto, instalar: install.packages("qcc")
 
-	Todos os dados estão completos (não tem na*).
+	
 Conjunto de dados escolhidos:
 •	Tipo	- qualitativa nominal
 		Moda, organizar tf, gráfico (legendar)
@@ -15,7 +15,4 @@ Conjunto de dados escolhidos:
 •	
 •	Custo_de_fabricação_.em_reais. – quantitativa contínua
 
-Como já sabemos que a media é diferente de zero podemos calcular o cv
-
-
-**Fazer relatório e interpretar os resultados
+Ao executar os comando em windows, será aberta uma janela para selecionar o arquivo com os dados.
