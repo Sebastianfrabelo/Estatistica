@@ -1,4 +1,4 @@
-# Estat-stica
+# Estatística
 Estatística descritiva e análise exploratória
 
 Introdução
