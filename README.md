@@ -1,5 +1,4 @@
-# Estatística
-Estatística descritiva e análise exploratória
+# Estatística descritiva e análise exploratória
 
 Introdução
 	Usando o software R versão 4.0.0 (2020-04-24) -- "Arbor Day".Copyright (C) 2020 The R Foundation for Statistical Computing.
