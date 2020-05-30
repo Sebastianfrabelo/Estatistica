@@ -11,6 +11,7 @@ Conjunto de dados escolhidos:
 • Quantitativa contínua - Custo de fabricação (R$)
 
 Ao executar os comando em windows, será aberta uma janela para selecionar o arquivo com os dados.
+
 Para plotar o gráfico de Pareto é necessário instalar "qcc": install.packages("qcc").
 
 	
