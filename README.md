@@ -4,12 +4,13 @@ Análise Estatística do conjuto de dados usando o software R versão 4.0.0 (202
 
 Conjunto de dados escolhidos:
 	• Qualitativa nominal - Tipo
+	
 	• Quantitativa discreta - Número de parafusos utilizadoa
+	
 	• Quantitativa contínua - Custo de fabricação (R$)
 
-Ao executar os comando em windows, será aberta uma janela para selecionar o arquivo com os dados.
-
-Para plotar o gráfico de Pareto é necessário instalar "qcc": install.packages("qcc")
+	Ao executar os comando em windows, será aberta uma janela para selecionar o arquivo com os dados.
+	Para plotar o gráfico de Pareto é necessário instalar "qcc": install.packages("qcc")
 
 	
 
