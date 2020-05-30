@@ -114,15 +114,15 @@ boxplot(Custo_de_fabricação_.em_reais.~Tipo, ylab = "Custo de fabricação (R$
 boxplot(Custo_de_fabricação_.em_reais.~Número_de_parafusos_utilizados, ylab = "Custo de fabricação (R$)",
 	xlab="Número de parafusos utilizados",col=c("green","yellow"),main="Diagrama de caixa para custo de fabricação por tipo")
 
-########################  Análise bivariada
+##	Análise bivariada - Custo de fabricação por Número de parafusos utilizados
 plot(Número_de_parafusos_utilizados,Custo_de_fabricação_.em_reais., xlab = "Número de parafusos utilizados", ylab ="Custo de fabricação (R$)",
-	pch = 20, main="Número de parafusos utilizados por Custo de fabricação")
+	pch = 20, main="Custo de fabricação por Número de parafusos utilizados")
 lines(lowess( Número_de_parafusos_utilizados,Custo_de_fabricação_.em_reais.), col = "blue")
 
 
-##  Análise bivariada Custo_de_fabricação_.em_reais. por Número_de_parafusos_utilizados
+##	Análise bivariada - Número_de_parafusos_utilizados por Custo_de_fabricação_.em_reais.
 plot( Custo_de_fabricação_.em_reais.,Número_de_parafusos_utilizados, xlab = "Custo de fabricação (R$)", ylab ="Número de parafusos utilizados",
-	pch = 20, main="Custo de fabricação por Número de parafusos utilizados")
+	pch = 20, main="Número de parafusos utilizados por Custo de fabricação")
 lines(lowess( Custo_de_fabricação_.em_reais.,Número_de_parafusos_utilizados), col = "red")
 
 #Covariância e coeficiente de correlação entre as variáveis quantitativas
